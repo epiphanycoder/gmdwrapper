@@ -1,0 +1,19 @@
+{
+  "AppName" : "GMDWRAPPER",
+  "Version": "1.0.0",
+  "Description": "Configuration for Gmdwrapper",
+  "Logging": {
+    "Filename" : "./gmdwrapper.log",
+    "Level": "DEBUG"
+  },
+  "DummyApiConfig": {
+    "AppId":  "",
+    "BaseURL": "https://dummyapi.io/data/v1/",
+    "UserAgent": "GMDWRAPPER",
+    "PageConfig": {
+      "DefaultPageSize": 50
+    }
+  },
+  "Indent": true,
+  "Data": "data/users.json"
+}
