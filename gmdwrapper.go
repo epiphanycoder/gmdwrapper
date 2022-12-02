@@ -1,1 +1,5 @@
-package gmdwrapper
+package main
+
+func main() {
+
+}
